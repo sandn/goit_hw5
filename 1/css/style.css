@@ -1,0 +1,232 @@
+/* Reset style*/
+article,aside,details,figcaption,figure,footer,header,hgroup,hr,menu,nav,section{display:block}a,hr{padding:0}abbr,address,article,aside,audio,b,blockquote,body,canvas,caption,cite,code,dd,del,details,dfn,div,dl,dt,em,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,p,pre,q,samp,section,small,span,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,ul,var,video{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:0 0}ins,mark{background-color:#ff9;color:#000}body{line-height:1}nav ul{list-style:none}blockquote,q{quotes:none}blockquote:after,blockquote:before,q:after,q:before{content:'';content:none}a{margin:0;font-size:100%;vertical-align:baseline;background:0 0}ins{text-decoration:none}mark{font-style:italic;font-weight:700}del{text-decoration:line-through}abbr[title],dfn[title]{border-bottom:1px dotted;cursor:help}table{border-collapse:collapse;border-spacing:0}hr{height:1px;border:0;border-top:1px solid #ccc;margin:1em 0}input,select{vertical-align:middle}
+/* Reset style*/
+/*Font*/
+@font-face {
+  font-family: "Helvetica Neue";
+  src: url('../fonts/helveticaneuecyr-light-webfont.woff2') format('woff2'),
+       url('../fonts/helveticaneuecyr-light-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+/**/
+body{
+  font-family:"Helvetica Neue", sans-serif;
+  background: url(../img/bg.jpg) no-repeat;
+  -moz-background-size: 100%; /* Firefox 3.6+ */
+  -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
+  -o-background-size: 100%; /* Opera 9.6+ */
+  background-size: 100%; /* Современные браузеры */
+}
+
+.header{
+  width: 100%;
+  height: 40px;
+  background:#004F92;
+}
+
+.top-menu{
+float:left;
+margin-left: 430px;
+
+}
+.top-menu ul{
+  list-style: none;
+}
+
+.top-menu li{
+ float: left;
+}
+
+.top-menu a{
+  color: #4f9ed6;
+  display: block;
+  padding: 0 15px;
+  font: 14px/40px sans-serif;
+  text-align: center;
+  text-decoration: none;
+}
+
+.top-menu a:hover{
+  background: #4eabda;
+  color: #fff;
+}
+
+.user{
+display: inline;
+line-height: 40px;
+margin-left: 10px;
+margin-right: 10px;
+color: #fff;
+}
+
+.user:before{
+  content: "";
+  display: block;
+  float: left;
+  margin: 3px 0 3px 0;
+
+  width: 40px;
+  height: 35px;
+  background: url(../img/p_fl.png) no-repeat right center;
+  border-left: 1px solid #4eabda;
+}
+
+.autoriz{
+display: inline;
+padding: 11px 13px;
+/**/
+background: #00addb;
+background: -moz-linear-gradient(top,  #00addb 0%, #017ac9 100%);
+background: -webkit-linear-gradient(top,  #00addb 0%,#017ac9 100%);
+background: linear-gradient(to bottom,  #00addb 0%,#017ac9 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00addb', endColorstr='#017ac9',GradientType=0 );
+/**/
+color: #fff;
+}
+
+.autoriz a{
+  color: #fff;
+}
+
+/*Form CSS*/
+input{
+  display: block;
+  border: none;
+  font-family:"Helvetica Neue", sans-serif;
+}
+
+.registr-form{
+  /*width: 560px;
+  margin: 210px auto;*/
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 45%;
+  height: 70%;
+  margin: auto;
+
+}
+
+.header-form{
+  width: 100%;
+  height: 60px;
+  position: relative;
+  top: -2px;
+  background-color: rgba(0,0,0,0.5);
+  font-size: 24px;
+  color: #fff;
+  text-align: center;
+  line-height: 60px;
+}
+
+.content-form{
+  width: 100%;
+  height: 548px;
+  background-color: rgba(0,0,0,0.5);
+}
+
+.fb-btn{
+  display: block;
+  width: 276px;
+  height: 35px;
+  margin: 0px auto;
+  position: relative;
+  top: 40px;
+  background: url(../img/fb_btn.png);
+  border: none;
+  cursor: pointer;
+}
+
+.fb-btn:hover{
+  box-shadow: 0 0 5px 0px rgba(255,255,255,0.4);
+}
+
+.line-decor{
+  width: 276px;
+  margin: 70px auto 30px auto;
+}
+
+.col-left{
+width: 120px;
+float: left;
+position: relative;
+top:4px;
+border-bottom: 1px solid #000;
+border-top: 1px solid #666666;
+}
+
+.col-right{
+width: 120px;
+float: right;
+position: relative;
+top:4px;
+border-bottom: 1px solid #000;
+border-top: 1px solid #666666;
+}
+
+.col-text{
+  margin: 0 auto;
+  text-align: center;
+  color: #9AA69C;
+}
+
+.text-field{
+  width: 276px;
+  height: 35px;
+  margin: 12px auto;
+  text-indent: 20px;
+  background: #000;
+  border: none;
+  border-bottom: 1px solid #666666;
+}
+
+.text-field:hover{
+  background: #00508B;
+  box-shadow: 0 0 5px 3px #15789A;
+}
+
+.check{
+  width: 276px;
+  margin: 20px auto;
+  color: #fff;
+}
+
+#checkbox{
+  display: inline;
+}
+
+#sub{
+  width: 150px;
+  height: 35px;
+  margin: 20px auto;
+  background: #00addb;
+  background: -moz-linear-gradient(top,  #00addb 0%, #017ac9 100%);
+  background: -webkit-linear-gradient(top,  #00addb 0%,#017ac9 100%);
+  background: linear-gradient(to bottom,  #00addb 0%,#017ac9 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00addb', endColorstr='#017ac9',GradientType=0 );
+  border-radius: 3px;
+  box-shadow: inset 0 0 1px 0 #fff;
+  color: #fff;
+  font-size: 16px;
+  text-shadow: 1px 1px rgba(0,0,0,0.5);
+}
+
+#sub:hover{
+  background: #017ac9;
+  background: -moz-linear-gradient(top,  #017ac9 0%, #00addb 100%);
+  background: -webkit-linear-gradient(top,  #017ac9 0%,#00addb 100%);
+  background: linear-gradient(to bottom,  #017ac9 0%,#00addb 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#017ac9', endColorstr='#00addb',GradientType=0 );
+}
+
+.agree-text{
+  width: 330px;
+  margin: 20px auto;
+  font-size: 12px;
+  color: #fff;
+  text-align: center;
+  line-height: 15px;
+}

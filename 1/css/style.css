@@ -21,8 +21,8 @@ body{
 
 .header{
   width: 100%;
-  height: 40px;
-  background:#004F92;
+  height: 36px;
+  background: url(../img/bg_header.png) repeat-x;
 }
 
 .top-menu{
@@ -42,7 +42,7 @@ margin-left: 430px;
   color: #4f9ed6;
   display: block;
   padding: 0 15px;
-  font: 14px/40px sans-serif;
+  font: 14px/36px sans-serif;
   text-align: center;
   text-decoration: none;
 }
@@ -54,7 +54,7 @@ margin-left: 430px;
 
 .user{
 display: inline;
-line-height: 40px;
+line-height: 36px;
 margin-left: 10px;
 margin-right: 10px;
 color: #fff;
@@ -67,14 +67,14 @@ color: #fff;
   margin: 3px 0 3px 0;
 
   width: 40px;
-  height: 35px;
+  height: 30px;
   background: url(../img/p_fl.png) no-repeat right center;
   border-left: 1px solid #4eabda;
 }
 
 .autoriz{
 display: inline;
-padding: 11px 13px;
+padding: 9px 13px;
 /**/
 background: #00addb;
 background: -moz-linear-gradient(top,  #00addb 0%, #017ac9 100%);
@@ -181,11 +181,13 @@ border-top: 1px solid #666666;
   background: #000;
   border: none;
   border-bottom: 1px solid #666666;
+  color: #fff;
 }
 
 .text-field:hover{
   background: #00508B;
   box-shadow: 0 0 5px 3px #15789A;
+  
 }
 
 .check{

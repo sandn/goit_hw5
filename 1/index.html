@@ -31,13 +31,13 @@
         <div class="col-text">OU</div>
       </div>
       <form action="#">
-        <input id="first" class="text-field" type="text" placeholder="First Name">
-        <input id="last" class="text-field" type="text" placeholder="Last Name">
-        <input id="email" class="text-field" type="email" placeholder="Email Address">
-        <input id="pass" class="text-field" type="password" placeholder="Choose Password">
-        <input id="cof_pass" class="text-field" type="password" placeholder="Password Confirm">
+        <input name="registr[]" class="text-field" type="text" required placeholder="First Name">
+        <input name="registr[]" class="text-field" type="text" required placeholder="Last Name">
+        <input name="registr[]" class="text-field" type="email" required placeholder="Email Address">
+        <input name="registr[]" class="text-field" type="password" required placeholder="Choose Password">
+        <input name="registr[]" class="text-field" type="password" required placeholder="Password Confirm">
         <div class="check">
-          <input id="checkbox" type="checkbox" value="">
+          <input id="checkbox"  name="registr[]" type="checkbox" value="1">
           <label for="checkbox">Send me Youtube updates and tips</label>
         </div>
         <input id="sub" type="submit" value="Create my Account">
